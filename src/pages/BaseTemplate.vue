@@ -23,7 +23,7 @@ const props = defineProps<{
 // Note: these are static. If you need these to be reactive, use ref() or reactive()
 useHead({
   bodyAttrs: {
-    title: props.title,
+    title: 'Uncode',
     class: 'home summer',
   },
   meta: [

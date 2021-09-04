@@ -6,16 +6,16 @@ import About from '@/pages/About.vue'
 const routes = [
   {
     path: '/',
-    component: Index,
+    component: () => import('@/pages/home/Index.vue'),
     meta: {
-      title: 'Vite + Vue + TypeScript + Tailwind Starter Template',
+      title: 'Uncode',
     },
   },
   {
     path: '/about/',
     component: About,
     meta: {
-      title: 'About',
+      title: 'Uncode',
     },
   },
 ]

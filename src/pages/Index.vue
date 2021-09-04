@@ -1,5 +1,5 @@
 <template>
-  <BaseTemplate title="Vite-TS-Tailwind Starter">
+  <BaseTemplate title="Uncode">
     <HelloWorld opt msg="Hello Vue 3 + Vite + Tailwind CSS" />
 
     <hr />
